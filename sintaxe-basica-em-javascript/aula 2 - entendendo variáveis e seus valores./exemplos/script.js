@@ -74,9 +74,80 @@ console.log(typeof(nome));
  console.log(comparacao); // nesse caso vai retornar false
 
  // Comparação idêntica:
- var comparaIdentica = "0" === 0; // vai retornar false, pois "0" é uma string e 0 é number
- console.log(comparaIdentica);
  var comparaIdentica = 0 === 0; // nesse caso vau retornar true
  console.log(comparaIdentica);
 
  
+// OPERADORES ARITMÉTICOS, RELACIONAIS E LÓGICOS
+
+// OPERADORES ARITMÉTICOS
+
+// Adição:
+var adicao = 10 + 2; // resulta em 12
+console.log(adicao);
+
+// Subtração:
+var subtracao = 10 - 2; // resulta em 8
+console.log(subtracao);
+
+// Multiplicação:
+var multiplicacao = 10 * 2; // resulta em 20
+console.log(multiplicacao);
+
+// Divisão real:
+var divisaoReal = 10 / 2; // resulta em 5
+console.log(divisaoReal);
+
+// Divisão inteira:
+var divisaoInteira = 10 % 2; // resulta em 0
+console.log(divisaoInteira);
+var divisaoInteira = 11 % 2; // resulta em 1 (resto da divisão)
+console.log(divisaoInteira);
+
+// Potenciação:
+var potenciacao = 10 ** 2;
+console.log(potenciacao); // resulta em 100
+
+
+// OPERADORES RELACIONAIS
+
+// Maior que:
+var maiorQue = 1 > 2; // vair retornar false
+console.log(maiorQue);
+var maiorQue = 2 > 1; // vair retornar true
+console.log(maiorQue);
+
+// Menor que:
+var menorQue = 5 < 6; // vai retornar true
+console.log(menorQue);
+var menorQue = 6 < 5; // vai retornar false
+console.log(menorQue);
+
+// Maior ou igual a:
+var maiorOuIgual = 10 >= 10; // vai retornar true
+console.log(maiorOuIgual);
+
+// Menor ou igual a:
+var menorOuIgual = 10 <= 10; // vai retornar true
+console.log(menorOuIgual);
+
+
+// OPERADORES LÓGICOS
+
+// && "e" - precisa que todos os valores sejam verdadeiros
+var e = true && false; // vai retornar false
+console.log(e);
+var e = true && true; // vai retornar true
+console.log(e);
+
+// || "ou" - precisa que ao menos um valor seja verdadeiro
+var ou = true || false; // vai retornar true
+console.log(ou);
+var ou = false || false; // vai retornar false
+console.log(ou);
+
+// ! "não" - inverte o valor do true para false ou vise-versa
+var nao = !true; // vai retornar false
+console.log(nao);
+var nao = !false; // vai retornar true
+console.log(nao);
