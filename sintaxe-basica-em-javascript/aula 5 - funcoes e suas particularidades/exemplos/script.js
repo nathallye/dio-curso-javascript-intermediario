@@ -12,3 +12,4 @@ function funcao(parametro) {
 }
 
 funcao("Valor do parametro");
+
