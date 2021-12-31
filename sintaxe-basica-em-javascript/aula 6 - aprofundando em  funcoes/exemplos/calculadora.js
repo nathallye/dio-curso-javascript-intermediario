@@ -17,7 +17,7 @@ function calculadora() {
     } else {
       function soma() {
         resultado = n1 + n2;
-        alert(`${n1} + ${n2} = ${resultado}`); // TemplatStrings para concatenar
+        alert(`${n1} + ${n2} = ${resultado}`); // TemplatStrings para interpolar
         novaOperacao();
       }
       function subtracao() {
