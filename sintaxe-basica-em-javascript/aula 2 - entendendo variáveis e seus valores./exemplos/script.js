@@ -151,3 +151,5 @@ var nao = !true; // vai retornar false
 console.log(nao);
 var nao = !false; // vai retornar true
 console.log(nao);
+
+
