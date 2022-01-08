@@ -20,3 +20,7 @@ function substituirNumerosPares(array) {
 
 let array = [];
 substituirNumerosPares(array);
+
+(function () {
+  console.log(this);
+})();
