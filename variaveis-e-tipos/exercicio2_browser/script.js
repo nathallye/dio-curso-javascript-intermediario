@@ -1,3 +1,9 @@
+/*
+Verifique, de duas maneiras diferentes entre si, se uma String é um palíndromo.
+
+Palíndromo: frase ou palavra que se pode ler, indiferentemente, da esquerda para a direita ou vice-versa (ex.: raiar, ama, ovo, radar)
+*/
+
 function substituirNumerosPares(array) {
   if (!array.length) { // verifica se o array existe
     array = -1;
